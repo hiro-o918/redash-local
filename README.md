@@ -20,10 +20,17 @@ $ cd redash-local
 $ make initialize
 ````
 **NOTE:**
-You need not initialize again and again because this operation removes a re:dash container.
-### Start server
+Be carefull when do this operation more than once because it removes a re:dash container.
+
+## How to use
+### Start servers
 ```bash
 $ make start
+```
+
+### Stop servers
+```bash
+$ make stop
 ```
 
 ## Acknowledgement
