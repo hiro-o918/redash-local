@@ -17,4 +17,7 @@ initialize: docker-compose.yml
 
 start: docker-compose.yml
 	docker-compose up -d > ./redash/log
+
+stop: docker-compose.yml
+	docker-compose stop
  
