@@ -26,7 +26,7 @@ You need not initialize again and again because this operation removes a re:dash
 $ make start
 ```
 
-# Acknowledgement
+## Acknowledgement
 The `docker-compose.yml` is almost copied from [here](https://github.com/getredash/redash/blob/master/setup/docker-compose.yml).
 
 If you want to know about re:dash more check [this](https://redash.io/).
