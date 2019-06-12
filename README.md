@@ -27,6 +27,7 @@ Be carefull when do this operation more than once because it removes a re:dash c
 ```bash
 $ make start
 ```
+, then access to the address like `http://localhost`
 
 ### Stop servers
 ```bash
