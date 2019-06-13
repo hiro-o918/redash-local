@@ -38,6 +38,8 @@ services:
   postgres:
     image: postgres:9.5-alpine
     env_file: ./redash/env
+    ports:
+      - "15432:5432"
     volumes:
       - ./redash/postgres-data:/var/lib/postgresql/data
     restart: always
