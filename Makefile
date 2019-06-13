@@ -1,3 +1,5 @@
+SHELL:=/bin/bash
+
 initialize: docker-compose.yml
 	@echo "This is an initialize operation for redash server."
 	@echo "If you already build one, it will be REMOVED!"
@@ -12,8 +14,6 @@ initialize: docker-compose.yml
 	else \
 		echo "Cannot understand: $$answer"; \
 	fi
-
-	
 
 start: docker-compose.yml
 	docker-compose up -d > ./redash/log
